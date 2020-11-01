@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  lun. 05 août 2019 à 16:24
+-- Généré le :  lun. 01 novembre 2020 à 21:40
 -- Version du serveur :  10.1.36-MariaDB
 -- Version de PHP :  7.2.11
 
@@ -40,13 +40,10 @@ CREATE TABLE `ref_utilisateur` (
 --
 
 INSERT INTO `ref_utilisateur` (`FirstName`, `LastName`, `Email`, `Passwords`) VALUES
-('ST37 Sport', 'Technologie', 'administration2@st37.fr', '$2y$10$clXks4gL8wu2IP2ElFCD/.P99IN4avCwoMNUCQxnzew'),
-('ST37 Sport', 'Technologie', 'administration3@st37.fr', '$2y$10$pOvnBVhFpOiub0CL9lAjeeYigD.WQNLumekFc/tjmsX'),
-('Trente Sept Sport', 'Technologie', 'administration@st37.fr', '$2y$10$GDEb6PyPQk9dh1Q3CA4kFe9MxMMnfUi3sOQkPjkiZ5s'),
 ('deogracia', 'patrick', 'deogracia@yahoo.fr', '$2y$10$j41fCVfJW6BcXJmTf0KtLe.73aX1I1mitGKf22.Qjjg'),
-('lucas', 'st37', 'lucas@st37.fr', '$2y$10$.zmLY9NiqBjp8G/LsE0gUuSfEoIwD/5tPYrHQAiyGie'),
-('test', 'test', 'test@st37.fr', '$2y$10$l74q0HthoR.jdoEKN2Zw7OA4l2dHyi5Z7bhyw.1/v1w'),
-('sdfghj', 'sdfg', 'tt@st37.fr', '$2y$10$dQmTqeRpqshtVkotXz4mfOVV5pR1Z7XRUwqPzW68ysO');
+('lucas', 'st37', 'lucas@st.fr', '$2y$10$.zmLY9NiqBjp8G/LsE0gUuSfEoIwD/5tPYrHQAiyGie'),
+('test', 'test', 'test@gmail.com', '$2y$10$l74q0HthoR.jdoEKN2Zw7OA4l2dHyi5Z7bhyw.1/v1w'),
+('sdfghj', 'sdfg', 'tt@yahoo.fr', '$2y$10$dQmTqeRpqshtVkotXz4mfOVV5pR1Z7XRUwqPzW68ysO');
 
 --
 -- Index pour les tables déchargées
