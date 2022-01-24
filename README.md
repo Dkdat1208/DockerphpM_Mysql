@@ -1,4 +1,3 @@
-# DockerphpM_Mysql
 # Projet
 ce projet a pour but de lancer un programme en utilisant doker, pour cela le fichier docker gèrer toute les dépéndances et docker-compose se chargera d'executer et charger l'application.
 # Instruction 
