@@ -45,16 +45,11 @@ $conn = new mysqli($host,$user,$passwd,$db);
                     $check = "SELECT Email from ref_utilisateur Where Email=:mail ";
                     $prepcheck = $bdd->prepare($check);
                     $prepcheck-> bindValue(':mail',$lmail,PDO::PARAM_STR);
-                    //$prepcheck->execute();
-                   // $em = $prepcheck->rowcount();
-                    //if user is not add ,he will be added
-                    //if ($em==0){
-                        
+                  
                     $query = "INSERT INTO ref_utilisateur(FirstName,LastName,Email,Passwords)
                     VALUES('".$fname."','".$lname."','".$lmail."','".$hash."')";
 
-                   // $prep = $bdd->prepare($query);
-                    //$prep->execute();
+           
 
                     /**if all goes well it is recorded refer to the page of thanks */
                     header('Location:ThanksLandingPage1.html');
